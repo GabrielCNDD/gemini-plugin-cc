@@ -1,0 +1,21 @@
+{
+  "name": "gemini-plugin-cc",
+  "owner": {
+    "name": "GabrielCNDD"
+  },
+  "metadata": {
+    "description": "Claude Code plugin repo for Gemini companion runtime — multimodal analysis, code review, and task delegation.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "gemini",
+      "description": "Use Google Gemini from Claude Code for multimodal analysis, code review, and task delegation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "GabrielCNDD"
+      },
+      "source": "./plugins/gemini"
+    }
+  ]
+}
