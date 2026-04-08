@@ -1,0 +1,16 @@
+{
+  "description": "Session-start Gemini API key verification.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/gemini-companion.mjs\" hook-session-start",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
